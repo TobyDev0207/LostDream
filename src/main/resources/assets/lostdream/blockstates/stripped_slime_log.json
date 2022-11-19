@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lostdream:block/stripped_slime_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lostdream:block/stripped_slime_log"
+    },
+    "axis=z": {
+      "model": "lostdream:block/stripped_slime_log_horizontal",
+      "x": 90
+    }
+  }
+}

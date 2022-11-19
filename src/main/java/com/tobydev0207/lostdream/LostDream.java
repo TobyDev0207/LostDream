@@ -8,12 +8,11 @@ import software.bernie.geckolib3.GeckoLib;
 public class LostDream implements ModInitializer {
     @Override
     public void onInitialize() {
-        // Register dimensions
-        LDDimension.register();
+        GeckoLib.initialize();
 
-        // Register portals
+        LDDimension.register();
         LDPortal.register();
 
-        GeckoLib.initialize();
+        BlockManager.register();
     }
 }
