@@ -1,0 +1,6 @@
+{
+    "parent": "lostdream:block/fence_side",
+    "textures": {
+        "texture": "lostdream:block/slime_planks"
+    }
+}
