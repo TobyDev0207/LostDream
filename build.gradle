@@ -1,6 +1,7 @@
 plugins {
 	id 'fabric-loom' version '0.12-SNAPSHOT'
 	id 'maven-publish'
+	id "com.diffplug.spotless" version "6.11.0"
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
@@ -59,5 +60,22 @@ publishing {
 	}
 
 	repositories {
+	}
+}
+
+spotless {
+	java {
+		target 'src/*/java/**/*.java'
+		removeUnusedImports()
+		googleJavaFormat()
+		formatAnnotations()
+	}
+
+	json {
+		target 'src/**/*.json'
+		gson()
+				.indentWithSpaces(4)
+				.sortByKeys()
+				.escapeHtml()
 	}
 }
