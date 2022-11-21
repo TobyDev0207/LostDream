@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/button",
+    "parent": "lostdream:block/button",
     "textures": {
         "texture": "lostdream:block/slime_planks"
     }

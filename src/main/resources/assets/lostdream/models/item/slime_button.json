@@ -1,6 +1,3 @@
 {
-    "parent": "minecraft:block/button_inventory",
-    "textures": {
-        "texture": "lostdream:block/slime_planks"
-    }
+    "parent": "lostdream:block/slime_button_inventory"
 }
