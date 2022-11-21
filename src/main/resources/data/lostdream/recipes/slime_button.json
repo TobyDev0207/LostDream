@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "wooden_button",
+    "ingredients": [
+        {
+            "item": "lostdream:slime_planks"
+        }
+    ],
+    "result": {
+        "item": "lostdream:slime_button",
+        "count": 1
+    }
+}
