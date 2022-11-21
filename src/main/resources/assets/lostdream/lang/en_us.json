@@ -1,6 +1,8 @@
 {
   "block.lostdream.slime_log": "Slime Log",
   "block.lostdream.stripped_slime_log": "Stripped Slime Log",
+  "block.lostdream.slime_planks": "Slime Planks",
+  "block.lostdream.slime_pressure_plate": "Slime Pressure Plate",
 
   "itemGroup.lostdream.lost_dream_group": "Lost Dream"
 }

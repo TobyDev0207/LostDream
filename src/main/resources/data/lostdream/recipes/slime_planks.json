@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "lostdream:slime_log"
+    }
+  ],
+  "result": {
+    "item": "lostdream:slime_planks",
+    "count": 4
+  }
+}

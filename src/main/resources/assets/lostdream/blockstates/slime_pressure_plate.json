@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "lostdream:block/slime_pressure_plate_up"
+    },
+    "powered=true": {
+      "model": "lostdream:block/slime_pressure_plate_down"
+    }
+  }
+}
