@@ -4,5 +4,7 @@
     "block.lostdream.slime_planks": "Slime Planks",
     "block.lostdream.slime_pressure_plate": "Slime Pressure Plate",
     "block.lostdream.slime_button": "Slime Button",
+    "block.lostdream.slime_fence": "Slime Fence",
+    "block.lostdream.slime_fence_gate": "Slime Gate",
     "itemGroup.lostdream.lost_dream_group": "Lost Dream"
 }

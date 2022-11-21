@@ -3,6 +3,7 @@ package com.tobydev0207.lostdream;
 import com.tobydev0207.lostdream.blocks.*;
 import com.tobydev0207.lostdream.blocks.buttons.SlimeButton;
 import com.tobydev0207.lostdream.blocks.fences.SlimeFence;
+import com.tobydev0207.lostdream.blocks.fences.gates.SlimeFenceGate;
 import com.tobydev0207.lostdream.blocks.pressure_plates.SlimePressurePlate;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
@@ -21,6 +22,8 @@ public class BlockManager {
 
   private static final LDFenceBlock[] FENCES = {new SlimeFence()};
 
+  private static final LDFenceGateBlock[] FENCE_GATES = {new SlimeFenceGate()};
+
   public static void register() {
     for (LDBlock block : BLOCKS) {
       registerBlock(block.getBlock(), block.getName());
@@ -36,6 +39,11 @@ public class BlockManager {
 
     for (LDFenceBlock fence: FENCES) {
         registerBlock(fence.getBlock(), fence.getName());
+    }
+
+    for(LDFenceGateBlock gate: FENCE_GATES) {
+        registerBlock(gate.getBlock(), gate.getName());
+
     }
   }
 

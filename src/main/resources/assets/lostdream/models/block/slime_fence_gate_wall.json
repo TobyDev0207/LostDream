@@ -1,0 +1,6 @@
+{
+    "parent": "lostdream:block/template_fence_gate_wall",
+    "textures": {
+        "texture": "lostdream:block/slime_planks"
+    }
+}
