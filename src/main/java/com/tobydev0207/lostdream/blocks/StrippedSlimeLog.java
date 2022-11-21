@@ -6,15 +6,14 @@ import net.minecraft.block.Material;
 
 public class StrippedSlimeLog extends LDBlock {
 
-    private final Material MATERIALS = Material.WOOD;
-    private final String NAME = "stripped_slime_log";
+  private final Material MATERIALS = Material.WOOD;
+  private final String NAME = "stripped_slime_log";
 
-    public Block getBlock() {
-        return new Block(FabricBlockSettings.of(MATERIALS));
-    }
+  public Block getBlock() {
+    return new Block(FabricBlockSettings.of(MATERIALS));
+  }
 
-    public String getName() {
-        return NAME;
-    }
-
+  public String getName() {
+    return NAME;
+  }
 }

@@ -6,13 +6,13 @@ import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
 
 public class LDPortal {
-    public static void register() {
-        CustomPortalBuilder.beginPortal()
-                .frameBlock(Blocks.SLIME_BLOCK)
-                .lightWithItem(Items.EMERALD)
-                .destDimID(LDDimension.getKey().getValue())
-                .tintColor(20,60,86)
-                .onlyLightInOverworld()
-                .registerPortal();
-    }
+  public static void register() {
+    CustomPortalBuilder.beginPortal()
+        .frameBlock(Blocks.SLIME_BLOCK)
+        .lightWithItem(Items.EMERALD)
+        .destDimID(LDDimension.getKey().getValue())
+        .tintColor(20, 60, 86)
+        .onlyLightInOverworld()
+        .registerPortal();
+  }
 }

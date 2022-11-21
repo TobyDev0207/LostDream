@@ -5,14 +5,14 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 
 public class SlimePlanks extends LDBlock {
-    private final Material MATERIALS = Material.WOOD;
-    private final String NAME = "slime_planks";
+  private final Material MATERIALS = Material.WOOD;
+  private final String NAME = "slime_planks";
 
-    public Block getBlock() {
-        return new Block(FabricBlockSettings.of(MATERIALS));
-    }
+  public Block getBlock() {
+    return new Block(FabricBlockSettings.of(MATERIALS));
+  }
 
-    public String getName() {
-        return NAME;
-    }
+  public String getName() {
+    return NAME;
+  }
 }

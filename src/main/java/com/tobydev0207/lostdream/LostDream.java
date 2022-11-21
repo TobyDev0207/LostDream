@@ -6,13 +6,13 @@ import net.fabricmc.api.ModInitializer;
 import software.bernie.geckolib3.GeckoLib;
 
 public class LostDream implements ModInitializer {
-    @Override
-    public void onInitialize() {
-        GeckoLib.initialize();
+  @Override
+  public void onInitialize() {
+    GeckoLib.initialize();
 
-        LDDimension.register();
-        LDPortal.register();
+    LDDimension.register();
+    LDPortal.register();
 
-        BlockManager.register();
-    }
+    BlockManager.register();
+  }
 }

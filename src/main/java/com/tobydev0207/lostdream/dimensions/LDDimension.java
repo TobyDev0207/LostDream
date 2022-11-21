@@ -7,13 +7,14 @@ import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.World;
 
 public class LDDimension {
-    private static final RegistryKey<World> DIMENSION_KEY = RegistryKey.of(Registry.WORLD_KEY, new Identifier(Vars.MOD_ID, "lost_dream"));
+  private static final RegistryKey<World> DIMENSION_KEY =
+      RegistryKey.of(Registry.WORLD_KEY, new Identifier(Vars.MOD_ID, "lost_dream"));
 
-    public static void register() {
-        RegistryKey.of(Registry.DIMENSION_TYPE_KEY, getKey().getValue());
-    }
+  public static void register() {
+    RegistryKey.of(Registry.DIMENSION_TYPE_KEY, getKey().getValue());
+  }
 
-    public static RegistryKey<World> getKey() {
-        return DIMENSION_KEY;
-    }
+  public static RegistryKey<World> getKey() {
+    return DIMENSION_KEY;
+  }
 }

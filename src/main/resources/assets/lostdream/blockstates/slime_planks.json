@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "lostdream:block/slime_planks"
+    "variants": {
+        "": {
+            "model": "lostdream:block/slime_planks"
+        }
     }
-  }
 }
