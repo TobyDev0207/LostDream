@@ -7,22 +7,32 @@ import com.tobydev0207.lostdream.blocks.fences.gates.SlimeFenceGate;
 import com.tobydev0207.lostdream.blocks.pressure_plates.SlimePressurePlate;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class BlockManager {
+    public static final SlimeLog SLIME_LOG = new SlimeLog();
+    public static final StrippedSlimeLog STRIPPED_SLIME_LOG = new StrippedSlimeLog();
+    public static final SlimePlanks SLIME_PLANKS = new SlimePlanks();
+    public static final SlimePressurePlate SLIME_PRESSURE_PLATE = new SlimePressurePlate();
+    public static final SlimeButton SLIME_BUTTON = new SlimeButton();
+    public static final SlimeFence SLIME_FENCE = new SlimeFence();
+    public static final SlimeFenceGate SLIME_FENCE_GATE = new SlimeFenceGate();
+
+
 
   private static final LDBlock[] BLOCKS = {
-    new SlimeLog(), new StrippedSlimeLog(), new SlimePlanks()
+    SLIME_LOG, STRIPPED_SLIME_LOG, SLIME_PLANKS
   };
-  private static final LDPressurePlateBlock[] PRESSURE_PLATE_BLOCKS = {new SlimePressurePlate()};
+  private static final LDPressurePlateBlock[] PRESSURE_PLATE_BLOCKS = {SLIME_PRESSURE_PLATE};
 
-  private static final LDWoodenButtonBlock[] WOODEN_BUTTON_BLOCKS = {new SlimeButton()};
+  private static final LDWoodenButtonBlock[] WOODEN_BUTTON_BLOCKS = {SLIME_BUTTON};
 
-  private static final LDFenceBlock[] FENCES = {new SlimeFence()};
+  private static final LDFenceBlock[] FENCES = {SLIME_FENCE};
 
-  private static final LDFenceGateBlock[] FENCE_GATES = {new SlimeFenceGate()};
+  private static final LDFenceGateBlock[] FENCE_GATES = {SLIME_FENCE_GATE};
 
   public static void register() {
     for (LDBlock block : BLOCKS) {
