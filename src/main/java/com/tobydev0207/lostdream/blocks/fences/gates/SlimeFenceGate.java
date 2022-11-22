@@ -6,14 +6,14 @@ import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.Material;
 
 public class SlimeFenceGate extends LDFenceGateBlock {
-    private static final String NAME = "slime_fence_gate";
-    private static final Material MATERIAL = Material.WOOD;
+  private static final String NAME = "slime_fence_gate";
+  private static final Material MATERIAL = Material.WOOD;
 
-    public FenceGateBlock getBlock() {
-        return new FenceGateBlock(FabricBlockSettings.of(MATERIAL));
-    }
+  public FenceGateBlock getBlock() {
+    return new FenceGateBlock(FabricBlockSettings.of(MATERIAL));
+  }
 
-    public String getName() {
-        return NAME;
-    }
+  public String getName() {
+    return NAME;
+  }
 }

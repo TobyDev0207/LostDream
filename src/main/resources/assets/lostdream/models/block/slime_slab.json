@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "lostdream:block/slime_planks",
+        "top": "lostdream:block/slime_planks",
+        "side": "lostdream:block/slime_planks"
+    }
+}

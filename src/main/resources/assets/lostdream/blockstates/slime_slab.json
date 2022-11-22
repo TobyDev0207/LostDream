@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "lostdream:block/slime_slab"
+        },
+        "type=double": {
+            "model": "lostdream:block/slime_planks"
+        },
+        "type=top": {
+            "model": "lostdream:block/slime_slab_top"
+        }
+    }
+}
