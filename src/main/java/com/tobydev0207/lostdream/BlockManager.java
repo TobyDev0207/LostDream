@@ -4,7 +4,9 @@ import com.tobydev0207.lostdream.blocks.*;
 import com.tobydev0207.lostdream.blocks.buttons.SlimeButton;
 import com.tobydev0207.lostdream.blocks.fences.SlimeFence;
 import com.tobydev0207.lostdream.blocks.fences.gates.SlimeFenceGate;
+import com.tobydev0207.lostdream.blocks.leaves.SlimeLeaves;
 import com.tobydev0207.lostdream.blocks.pressure_plates.SlimePressurePlate;
+import com.tobydev0207.lostdream.blocks.saplings.SlimeSapling;
 import com.tobydev0207.lostdream.blocks.slabs.SlimeSlabBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
@@ -22,6 +24,8 @@ public class BlockManager {
     new LDBlock(SlimeFenceGate.getBlock(), SlimeFenceGate.getName()),
     new LDBlock(SlimePressurePlate.getBlock(), SlimePressurePlate.getName()),
     new LDBlock(SlimeSlabBlock.getBlock(), SlimeSlabBlock.getName()),
+    new LDBlock(SlimeLeaves.getBlock(), SlimeLeaves.getName()),
+    new LDBlock(SlimeSapling.getBlock(), SlimeSapling.getName())
   };
 
   public static void register() {

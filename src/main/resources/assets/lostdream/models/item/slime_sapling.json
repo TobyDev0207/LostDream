@@ -1,0 +1,6 @@
+{
+    "parent": "lostdream:item/generated",
+    "textures": {
+        "layer0": "lostdream:block/slime_sapling"
+    }
+}

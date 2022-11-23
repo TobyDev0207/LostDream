@@ -1,0 +1,6 @@
+{
+    "parent": "lostdream:block/leaves",
+    "textures": {
+        "all": "lostdream:block/slime_leaves"
+    }
+}

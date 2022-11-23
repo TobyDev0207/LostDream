@@ -17,6 +17,9 @@
     "entrypoints": {
         "main": [
             "com.tobydev0207.lostdream.LostDream"
+        ],
+        "client": [
+            "com.tobydev0207.lostdream.LostDreamClient"
         ]
     },
     "depends": {

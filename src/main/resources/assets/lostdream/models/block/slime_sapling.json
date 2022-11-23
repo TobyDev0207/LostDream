@@ -1,0 +1,6 @@
+{
+    "parent": "lostdream:block/cross",
+    "textures": {
+        "cross": "lostdream:block/slime_sapling"
+    }
+}
