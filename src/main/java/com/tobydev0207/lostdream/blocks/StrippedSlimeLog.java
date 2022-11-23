@@ -4,16 +4,16 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 
-public class StrippedSlimeLog extends LDBlock {
+public class StrippedSlimeLog {
+  private static final String NAME = "stripped_slime_log";
+  private static final Material MATERIAL = Material.WOOD;
+  private static final Block STRIPPED_SLIME_LOG = new Block(FabricBlockSettings.of(MATERIAL));
 
-  private final Material MATERIALS = Material.WOOD;
-  private final String NAME = "stripped_slime_log";
-
-  public Block getBlock() {
-    return new Block(FabricBlockSettings.of(MATERIALS));
+  public static Block getBlock() {
+    return STRIPPED_SLIME_LOG;
   }
 
-  public String getName() {
+  public static String getName() {
     return NAME;
   }
 }

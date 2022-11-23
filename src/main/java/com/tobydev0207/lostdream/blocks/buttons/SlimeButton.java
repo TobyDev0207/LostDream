@@ -1,21 +1,21 @@
 package com.tobydev0207.lostdream.blocks.buttons;
 
-import com.tobydev0207.lostdream.blocks.LDWoodenButtonBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Material;
 import net.minecraft.block.WoodenButtonBlock;
 
-public class SlimeButton extends LDWoodenButtonBlock {
+public class SlimeButton {
 
   private static final String NAME = "slime_button";
+  private static final Material MATERIAL = Material.WOOD;
+  private static final WoodenButtonBlock SLIME_BUTTON =
+      new WoodenButtonBlock(FabricBlockSettings.of(MATERIAL));
 
-  @Override
-  public WoodenButtonBlock getBlock() {
-    return new WoodenButtonBlock(FabricBlockSettings.of(Material.WOOD));
+  public static WoodenButtonBlock getBlock() {
+    return SLIME_BUTTON;
   }
 
-  @Override
-  public String getName() {
+  public static String getName() {
     return NAME;
   }
 }
