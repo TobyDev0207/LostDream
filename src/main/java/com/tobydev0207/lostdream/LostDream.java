@@ -14,5 +14,6 @@ public class LostDream implements ModInitializer {
     LDPortal.register();
 
     BlockManager.register();
+    StrippableBlocks.register();
   }
 }
