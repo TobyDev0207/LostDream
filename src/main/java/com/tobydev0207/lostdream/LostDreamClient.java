@@ -7,8 +7,8 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 public class LostDreamClient implements ClientModInitializer {
-    public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(SlimeSapling.getBlock(), RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(SlimeLeaves.getBlock(), RenderLayer.getCutout());
-    }
+  public void onInitializeClient() {
+    BlockRenderLayerMap.INSTANCE.putBlock(SlimeSapling.getBlock(), RenderLayer.getCutout());
+    BlockRenderLayerMap.INSTANCE.putBlock(SlimeLeaves.getBlock(), RenderLayer.getCutout());
+  }
 }
